@@ -2,5 +2,8 @@
     "scripts": {
         "re:build": "rescript",
         "re:start": "rescript build -w"
+    },
+    "dependencies": {
+        "@rescript/react": "^0.10.3"
     }
 }
