@@ -17,7 +17,7 @@ class Wizard extends PluginBase
 
     public function beforeControllerAction()
     {
-        echo 'mooo';
-        //App()->getClientScript()->registerScriptFile('https://unpkg.com/react@18/umd/react.development.js');
+        $srcUrl = Yii::app()->assetManager->publish(__DIR__ . '/dist');
+        App()->getClientScript()->registerScriptFile($srcUrl . '/bundle.1ef2e02c141ce1c94c51.js');
     }
 }
