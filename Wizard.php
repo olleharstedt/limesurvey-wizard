@@ -18,6 +18,9 @@ class Wizard extends PluginBase
     public function beforeControllerAction()
     {
         $srcUrl = Yii::app()->assetManager->publish(__DIR__ . '/dist');
-        App()->getClientScript()->registerScriptFile($srcUrl . '/bundle.1ef2e02c141ce1c94c51.js');
+        Yii::app()->assetManager->forceCopy = true;
+        //Yii::app()->assetManager->clearCache();
+        App()->getClientScript()->registerScriptFile($srcUrl . '/bundle.js', CClientScript::POS_END);
+        echo "<div id='root'></div>";
     }
 }

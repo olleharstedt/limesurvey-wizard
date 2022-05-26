@@ -6,7 +6,7 @@ const port = process.env.PORT || 3000;
 module.exports = {
     entry: './src/Test.bs.js',
     output: {
-        filename: 'bundle.[fullhash].js'
+        filename: 'bundle.js'
     },
     watch: true
 };

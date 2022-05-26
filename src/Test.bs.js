@@ -5,11 +5,15 @@ var React = require("react");
 var ReactDom = require("react-dom");
 var Caml_exceptions = require("rescript/lib/js/caml_exceptions.js");
 
-function Test(Props) {
-  return React.createElement("div", undefined, "Hello World");
+function Test$Header(Props) {
+  return React.createElement("h1", undefined, "Hello Eddy!");
 }
 
-console.log("hej");
+var Header = {
+  make: Test$Header
+};
+
+console.log("Mooo!");
 
 var NoRoot = /* @__PURE__ */Caml_exceptions.create("Test.NoRoot");
 
@@ -22,10 +26,8 @@ if (root == null) {
       };
 }
 
-ReactDom.render(React.createElement("div", undefined, "Hello Andrea"), root);
+ReactDom.render(React.createElement(Test$Header, {}), root);
 
-var make = Test;
-
-exports.make = make;
+exports.Header = Header;
 exports.NoRoot = NoRoot;
 /*  Not a pure module */
