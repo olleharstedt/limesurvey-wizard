@@ -1,7 +1,16 @@
 module Header = {
+
+    let variant = "text"
+    let className = "btn"
+
     @react.component
     let make = () => {
-        <h1> {React.string("Hello Eddy!")} </h1>
+        <h1> {React.string("Hello Eddy!")}
+            <Mui.Typography>
+                {"Some example text"->React.string}
+            </Mui.Typography>
+            <Mui.Button className variant=#text>{React.string("Button")}</Mui.Button>
+        </h1>
     }
 }
 

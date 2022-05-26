@@ -4,12 +4,23 @@
 var React = require("react");
 var ReactDom = require("react-dom");
 var Caml_exceptions = require("rescript/lib/js/caml_exceptions.js");
+var Core = require("@material-ui/core");
+
+var className = "btn";
 
 function Test$Header(Props) {
-  return React.createElement("h1", undefined, "Hello Eddy!");
+  return React.createElement("h1", undefined, "Hello Eddy!", React.createElement(Core.Typography, {
+                  children: "Some example text"
+                }), React.createElement(Core.Button, {
+                  children: "Button",
+                  className: className,
+                  variant: "text"
+                }));
 }
 
 var Header = {
+  variant: "text",
+  className: className,
   make: Test$Header
 };
 

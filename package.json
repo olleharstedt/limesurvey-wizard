@@ -5,6 +5,7 @@
     },
     "dependencies": {
         "@rescript/react": "^0.10.3",
+        "rescript-material-ui": "^3.0.2",
         "webpack": "^5.72.1"
     },
     "devDependencies": {
