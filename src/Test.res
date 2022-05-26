@@ -9,12 +9,13 @@ module Header = {
             <Mui.Typography>
                 {"Some example text"->React.string}
             </Mui.Typography>
+            <Mui.CssBaseline />
             <Mui.Button className variant=#text>{React.string("Button")}</Mui.Button>
         </h1>
     }
 }
 
-Js.log("Mooo!");
+Js.log("Mooo?");
 
 exception NoRoot
 

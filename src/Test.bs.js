@@ -11,7 +11,7 @@ var className = "btn";
 function Test$Header(Props) {
   return React.createElement("h1", undefined, "Hello Eddy!", React.createElement(Core.Typography, {
                   children: "Some example text"
-                }), React.createElement(Core.Button, {
+                }), React.createElement(Core.CssBaseline, {}), React.createElement(Core.Button, {
                   children: "Button",
                   className: className,
                   variant: "text"
@@ -24,7 +24,7 @@ var Header = {
   make: Test$Header
 };
 
-console.log("Mooo!");
+console.log("Mooo?");
 
 var NoRoot = /* @__PURE__ */Caml_exceptions.create("Test.NoRoot");
 

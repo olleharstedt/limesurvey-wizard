@@ -45,8 +45,10 @@ class Wizard extends PluginBase
 
     public function actionIndex($surveyId)
     {
-        $srcUrl = Yii::app()->assetManager->publish(__DIR__ . '/dist/bundle.js');
-        App()->getClientScript()->registerScriptFile($srcUrl, CClientScript::POS_END);
+        $vendor = Yii::app()->assetManager->publish(__DIR__ . '/dist/vendor.js');
+        $main = Yii::app()->assetManager->publish(__DIR__ . '/dist/main.js');
+        App()->getClientScript()->registerScriptFile($vendor, CClientScript::POS_END);
+        App()->getClientScript()->registerScriptFile($main, CClientScript::POS_END);
         return "<div id='root'></div>";
     }
 }
