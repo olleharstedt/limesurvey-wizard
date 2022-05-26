@@ -4,4 +4,9 @@ License: GPL-2
 
 **Installation**:
 
-    npm install rescript --save-dev 
+    npm install
+
+**Build**:
+
+    npx rescript build [-w]
+    ./node_modules/webpack/bin/webpack.js ?

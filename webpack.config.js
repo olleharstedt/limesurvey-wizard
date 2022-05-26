@@ -8,4 +8,5 @@ module.exports = {
     output: {
         filename: 'bundle.[fullhash].js'
     },
+    watch: true
 };
