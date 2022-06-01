@@ -47,8 +47,21 @@ class Wizard extends PluginBase
     {
         $vendor = Yii::app()->assetManager->publish(__DIR__ . '/dist/vendor.js');
         $main = Yii::app()->assetManager->publish(__DIR__ . '/dist/main.js');
+
+        $exitUrl = Yii::app()->createUrl('admin', []);
+
         App()->getClientScript()->registerScriptFile($vendor, CClientScript::POS_END);
         App()->getClientScript()->registerScriptFile($main, CClientScript::POS_END);
+        App()->getClientScript()->registerScript(
+            "WizardGlobalData",
+            <<<JAVASCRIPT
+var wizardGlobalData = {
+    exitUrl:        "$exitUrl",
+};
+JAVASCRIPT
+,
+            CClientScript::POS_BEGIN
+        );
         return "<div id='root'></div>";
     }
 }

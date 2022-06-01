@@ -4,24 +4,39 @@
 var React = require("react");
 var ReactDom = require("react-dom");
 var Caml_exceptions = require("rescript/lib/js/caml_exceptions.js");
-var Core = require("@material-ui/core");
+var Styles = require("@material-ui/core/styles");
 
-var className = "btn";
+var theme = Styles.createTheme({});
 
-function Test$Header(Props) {
-  return React.createElement("h1", undefined, "Hello Eddy!", React.createElement(Core.Typography, {
-                  children: "Some example text"
-                }), React.createElement(Core.CssBaseline, {}), React.createElement(Core.Button, {
-                  children: "Button",
-                  className: className,
-                  variant: "text"
-                }));
+var divStyle = {
+  backgroundColor: "white",
+  height: "100%",
+  left: "0",
+  position: "fixed",
+  top: "0",
+  width: "100%",
+  zIndex: "9999"
+};
+
+function Test$Wizard(Props) {
+  return React.createElement("div", {
+              style: divStyle
+            }, React.createElement("h1", undefined, "Wizard"), React.createElement("button", {
+                  className: "btn btn-default"
+                }, "Previous"), React.createElement("button", {
+                  className: "btn btn-default"
+                }, "Next"), React.createElement("a", {
+                  className: "btn btn-default",
+                  href: wizardGlobalData.exitUrl
+                }, "Exit to LimeSurvey application"));
 }
 
-var Header = {
+var Wizard = {
   variant: "text",
-  className: className,
-  make: Test$Header
+  className: "btn btn-default",
+  theme: theme,
+  divStyle: divStyle,
+  make: Test$Wizard
 };
 
 console.log("Mooo?");
@@ -37,8 +52,8 @@ if (root == null) {
       };
 }
 
-ReactDom.render(React.createElement(Test$Header, {}), root);
+ReactDom.render(React.createElement(Test$Wizard, {}), root);
 
-exports.Header = Header;
+exports.Wizard = Wizard;
 exports.NoRoot = NoRoot;
-/*  Not a pure module */
+/* theme Not a pure module */
