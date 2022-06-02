@@ -1,7 +1,8 @@
 <?php
 
 use LimeSurvey\PluginManager\PluginBase;
-use \LimeSurvey\Menu\MenuItem;
+use LimeSurvey\Menu\MenuItem;
+use LimeSurvey\Menu\Menu;
 
 /**
  */
@@ -13,37 +14,33 @@ class Wizard extends PluginBase
 
     public function init()
     {
-        $this->subscribe('beforeToolsMenuRender');
-        $this->subscribe('newDirectRequest');
+        $this->subscribe('beforeAdminMenuRender');
     }
 
-    public function beforeToolsMenuRender()
+    public function beforeAdminMenuRender()
     {
         $event = $this->getEvent();
-        $surveyId = $event->get('surveyId');
-
-        $href = Yii::app()->createUrl(
+        $url = $this->api->createUrl(
             'admin/pluginhelper',
-            [
-                'sa' => 'sidebody',
-                'plugin' => 'Wizard',
-                'method' => 'actionIndex',
-                'surveyId' => $surveyId
-            ]
+            array(
+                'sa'     => 'fullpagewrapper',
+                'plugin' => $this->getName(),
+                'method' => 'actionIndex'
+            )
         );
 
-        $menuItem = new MenuItem(
+        $menu = new Menu(
             [
+                'isDropDown' => false,
                 'label' => gT('Wizard'),
-                'iconClass' => 'fa fa-table',
-                'href' => $href
+                'href' => $url,
+                'iconClass' => 'fa fa-magic',
             ]
         );
-
-        $event->append('menuItems', array($menuItem));
+        $event->append('extraMenus', [$menu]);
     }
 
-    public function actionIndex($surveyId)
+    public function actionIndex()
     {
         $vendor = Yii::app()->assetManager->publish(__DIR__ . '/dist/vendor.js');
         $main = Yii::app()->assetManager->publish(__DIR__ . '/dist/main.js');
