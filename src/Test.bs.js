@@ -9,9 +9,11 @@ var Styles = require("@material-ui/core/styles");
 var theme = Styles.createTheme({});
 
 var divStyle = {
-  backgroundColor: "white",
+  backgroundColor: "#0f3e12",
+  color: "white",
   height: "100%",
   left: "0",
+  padding: "10px",
   position: "fixed",
   top: "0",
   width: "100%",
@@ -20,15 +22,21 @@ var divStyle = {
 
 function Test$Wizard(Props) {
   return React.createElement("div", {
+              className: "text-center",
+              id: "wizard-root",
               style: divStyle
-            }, React.createElement("h1", undefined, "Wizard"), React.createElement("button", {
-                  className: "btn btn-default"
-                }, "Previous"), React.createElement("button", {
-                  className: "btn btn-default"
-                }, "Next"), React.createElement("a", {
-                  className: "btn btn-default",
-                  href: wizardGlobalData.exitUrl
-                }, "Exit to LimeSurvey application"));
+            }, React.createElement("h1", undefined, "LimeSurvey Wizard"), React.createElement("div", {
+                  id: "wizard-inputs"
+                }, React.createElement("form", undefined, React.createElement("div", {
+                          className: "form-group"
+                        }, React.createElement("label", undefined, "Survey title:"), React.createElement("input", {
+                              className: "form-control",
+                              type: "text"
+                            })))), React.createElement("div", {
+                  id: "wizard-buttons"
+                }, React.createElement("a", undefined, "Previous"), React.createElement("button", {
+                      className: "btn btn-default"
+                    }, "Next")));
 }
 
 var Wizard = {

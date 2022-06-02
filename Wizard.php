@@ -47,6 +47,9 @@ class Wizard extends PluginBase
 
         $exitUrl = Yii::app()->createUrl('admin', []);
 
+        $cssUrl = Yii::app()->assetManager->publish(dirname(__FILE__) . '/assets/css/wizard.css');
+        App()->getClientScript()->registerCssFile($cssUrl);
+
         App()->getClientScript()->registerScriptFile($vendor, CClientScript::POS_END);
         App()->getClientScript()->registerScriptFile($main, CClientScript::POS_END);
         App()->getClientScript()->registerScript(

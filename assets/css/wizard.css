@@ -1,0 +1,8 @@
+#wizard-root form {
+    width: 50%;
+    margin: auto;
+}
+
+#wizard-root #wizard-buttons a, #wizard-root #wozard-buttons button {
+    padding: 2em;
+}

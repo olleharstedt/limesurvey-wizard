@@ -33,18 +33,36 @@ module Wizard = {
         ~position="fixed",
         ~left="0",
         ~top="0",
-        ~backgroundColor="white",
+        ~backgroundColor="#0f3e12",
         ~zIndex="9999",
+        ~color="white",
+        ~padding="10px",
         ()
     )
 
+    /*
+    let h1Style = ReactDOM.Style.make(
+        ()
+    )
+    */
+
     @react.component
     let make = () => {
-        <div style=divStyle>
-            <h1>{React.string("Wizard")}</h1>
-            <button className="btn btn-default">{React.string("Previous")}</button>
-            <button className="btn btn-default">{React.string("Next")}</button>
-            <a href={wizardGlobalData.exitUrl} className="btn btn-default">{React.string("Exit to LimeSurvey application")}</a>
+        <div id="wizard-root" style=divStyle className="text-center">
+            <h1>{React.string("LimeSurvey Wizard")}</h1>
+            <div id="wizard-inputs">
+                <form>
+                    <div className="form-group">
+                        <label>{React.string("Survey title:")}</label>
+                        <input className="form-control" type_="text" />
+                    </div>
+                </form>
+            </div>
+            <div id="wizard-buttons">
+                <a>{React.string("Previous")}</a>
+                <button className="btn btn-default">{React.string("Next")}</button>
+            </div>
+            /*<a href={wizardGlobalData.exitUrl} className="btn btn-default">{React.string("Exit to LimeSurvey application")}</a>*/
         </div>
     }
 }
