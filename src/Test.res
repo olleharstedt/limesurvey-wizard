@@ -52,12 +52,13 @@ module Wizard = {
 
     @react.component
     let make = () => {
-        let (text, setText) = React.useState(_ => "");
+        // state value and setState function
+        let (count, setCount) = React.useState(_ => 0)
 
-        let onChange = evt => {
-            ReactEvent.Form.preventDefault(evt)
-            let value = ReactEvent.Form.target(evt)["value"]
-            setText(_prev => value);
+        let onClick = evt => {
+            ReactEvent.Mouse.preventDefault(evt)
+            //let value = ReactEvent.Mouse.target(evt)["value"]
+            setCount(prev => prev + 1)
         }
 
         <div id="wizard-root" className="text-center">
@@ -67,13 +68,13 @@ module Wizard = {
                 <form>
                     <div className="form-group">
                         <label>{React.string("Survey title:")}</label>
-                        <input className="form-control" type_="text" value=text />
+                        <input className="form-control" type_="" value={Belt.Int.toString(count)} />
                     </div>
                 </form>
             </div>
             <div id="wizard-buttons">
                 <a>{React.string("Previous")}</a>
-                <button className="btn btn-default">{React.string("Next")}</button>
+                <button onClick className="btn btn-default">{React.string("Next")}</button>
             </div>
             /*<a href={wizardGlobalData.exitUrl} className="btn btn-default">{React.string("Exit to LimeSurvey application")}</a>*/
         </div>
