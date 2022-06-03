@@ -31,6 +31,13 @@
     padding: 2em;
 }
 
+#wizard-root .close {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    color: white;
+}
+
 footer.footer {
     position: absolute;
     background-color: #0f3e12;

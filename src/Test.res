@@ -39,15 +39,35 @@ module Wizard = {
     )
     */
 
+    let closeButtonOriginal =
+        <button type_="button" className="close">
+            <i className="fa fa-close"></i>
+        </button>
+
+    // TODO: Needed workaround for data-* attributes. :(
+    let closeButton = React.cloneElement(
+        closeButtonOriginal,
+        {"data-toggle": "tooltip", "title": "Close wizard", "data-placement": "left"}
+    )
+
     @react.component
     let make = () => {
+        let (text, setText) = React.useState(_ => "");
+
+        let onChange = evt => {
+            ReactEvent.Form.preventDefault(evt)
+            let value = ReactEvent.Form.target(evt)["value"]
+            setText(_prev => value);
+        }
+
         <div id="wizard-root" className="text-center">
             <h1 id="wizard-header">{React.string("LimeSurvey Wizard")}</h1>
+            closeButton
             <div id="wizard-inputs">
                 <form>
                     <div className="form-group">
                         <label>{React.string("Survey title:")}</label>
-                        <input className="form-control" type_="text" />
+                        <input className="form-control" type_="text" value=text />
                     </div>
                 </form>
             </div>
