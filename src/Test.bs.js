@@ -8,23 +8,10 @@ var Styles = require("@material-ui/core/styles");
 
 var theme = Styles.createTheme({});
 
-var divStyle = {
-  backgroundColor: "#0f3e12",
-  color: "white",
-  height: "100%",
-  left: "0",
-  padding: "10px",
-  position: "fixed",
-  top: "0",
-  width: "100%",
-  zIndex: "9999"
-};
-
 function Test$Wizard(Props) {
   return React.createElement("div", {
               className: "text-center",
-              id: "wizard-root",
-              style: divStyle
+              id: "wizard-root"
             }, React.createElement("h1", undefined, "LimeSurvey Wizard"), React.createElement("div", {
                   id: "wizard-inputs"
                 }, React.createElement("form", undefined, React.createElement("div", {
@@ -43,7 +30,6 @@ var Wizard = {
   variant: "text",
   className: "btn btn-default",
   theme: theme,
-  divStyle: divStyle,
   make: Test$Wizard
 };
 

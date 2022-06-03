@@ -27,18 +27,11 @@ module Wizard = {
     }
     */
 
+    /*
     let divStyle = ReactDOM.Style.make(
-        ~width="100%",
-        ~height="100%",
-        ~position="fixed",
-        ~left="0",
-        ~top="0",
-        ~backgroundColor="#0f3e12",
-        ~zIndex="9999",
-        ~color="white",
-        ~padding="10px",
         ()
     )
+    */
 
     /*
     let h1Style = ReactDOM.Style.make(
@@ -48,7 +41,7 @@ module Wizard = {
 
     @react.component
     let make = () => {
-        <div id="wizard-root" style=divStyle className="text-center">
+        <div id="wizard-root" className="text-center">
             <h1>{React.string("LimeSurvey Wizard")}</h1>
             <div id="wizard-inputs">
                 <form>
