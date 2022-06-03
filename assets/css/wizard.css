@@ -10,11 +10,34 @@
     padding: 10px;
 }
 
+#wizard-header {
+    font-weight: bold;
+}
+
 #wizard-root form {
     width: 50%;
     margin: auto;
 }
 
+#wizard-inputs, #wizard-buttons {
+    padding-top: 5em;
+}
+
+#wizard-inputs label {
+    float: left;
+}
+
 #wizard-root #wizard-buttons a, #wizard-root #wozard-buttons button {
     padding: 2em;
+}
+
+footer.footer {
+    position: absolute;
+    background-color: #0f3e12;
+    z-index: 9999;
+    border: 0;
+}
+
+footer.footer #info-footer {
+    color: #328637;
 }

@@ -42,7 +42,7 @@ module Wizard = {
     @react.component
     let make = () => {
         <div id="wizard-root" className="text-center">
-            <h1>{React.string("LimeSurvey Wizard")}</h1>
+            <h1 id="wizard-header">{React.string("LimeSurvey Wizard")}</h1>
             <div id="wizard-inputs">
                 <form>
                     <div className="form-group">

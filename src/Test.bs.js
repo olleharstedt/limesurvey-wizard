@@ -12,7 +12,9 @@ function Test$Wizard(Props) {
   return React.createElement("div", {
               className: "text-center",
               id: "wizard-root"
-            }, React.createElement("h1", undefined, "LimeSurvey Wizard"), React.createElement("div", {
+            }, React.createElement("h1", {
+                  id: "wizard-header"
+                }, "LimeSurvey Wizard"), React.createElement("div", {
                   id: "wizard-inputs"
                 }, React.createElement("form", undefined, React.createElement("div", {
                           className: "form-group"
