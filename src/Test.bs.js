@@ -38,21 +38,36 @@ function Test$Wizard(Props) {
                 }));
   };
   var match$1 = match[0].page;
-  var page = match$1 ? React.createElement("form", undefined, React.createElement("div", {
+  var page = match$1 ? React.createElement("form", undefined, React.createElement("p", undefined, "Please enter the title of your survey. This can be changed later."), React.createElement("div", {
               className: "form-group"
-            }, React.createElement("label", undefined, "Survey title:"), React.createElement("input", {
+            }, React.createElement("input", {
                   className: "form-control",
                   type: "text"
-                })), React.createElement("a", {
-              className: "previous"
-            }, "Previous"), React.createElement("button", {
-              className: "btn btn-default next",
-              onClick: onClick
-            }, "Next")) : React.createElement("div", undefined, React.createElement("p", {
-              className: "introduction"
-            }, "Hi! \xf0\x9f\x91\x8b"), React.createElement("p", {
-              className: "introduction"
-            }, "Welcome to the LimeSurvey Wizard, that will guide you through the basics of survey creation."));
+                })), React.createElement("div", undefined, React.createElement("a", {
+                  className: "previous",
+                  role: "button",
+                  onClick: (function (evt) {
+                      return Curry._1(setState, (function (param) {
+                                    return {
+                                            page: /* Start_page */0
+                                          };
+                                  }));
+                    })
+                }, "Previous"), React.createElement("button", {
+                  className: "btn btn-default next",
+                  onClick: onClick
+                }, "Next"))) : React.createElement("div", {
+          className: "startpage"
+        }, React.createElement("p", undefined, "Hi! 👋"), React.createElement("p", undefined, "Welcome to the LimeSurvey Wizard, that will guide you through the basics of survey creation."), React.createElement("p", undefined, "You will learn how to:"), React.createElement("ul", undefined, React.createElement("li", undefined, "Create a new survey"), React.createElement("li", undefined, "Add new questions"), React.createElement("li", undefined, "Choose between question types"), React.createElement("li", undefined, "Activate and publish the survey"), React.createElement("li", undefined, "Check the responses from your participants")), React.createElement("button", {
+              className: "startbutton btn btn-default",
+              onClick: (function (evt) {
+                  return Curry._1(setState, (function (param) {
+                                return {
+                                        page: /* Survey_title */1
+                                      };
+                              }));
+                })
+            }, "Start"));
   return React.createElement("div", {
               className: "text-center",
               id: "wizard-root"

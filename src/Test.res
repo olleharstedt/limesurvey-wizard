@@ -70,17 +70,40 @@ module Wizard = {
         }
 
         let page = switch state.page {
-            | Start_page => <div>
-                    <p className="introduction">{React.string("Hi! 👋")}</p>
-                    <p className="introduction">{React.string("Welcome to the LimeSurvey Wizard, that will guide you through the basics of survey creation.")}</p>
+            | Start_page => <div className="startpage">
+                    <p>{React.string(`Hi! 👋`)}</p>
+                    <p>{React.string("Welcome to the LimeSurvey Wizard, that will guide you through the basics of survey creation.")}</p>
+                    <p>{React.string("You will learn how to:")}</p>
+                    <ul>
+                        <li>{React.string("Create a new survey")}</li>
+                        <li>{React.string("Add new questions")}</li>
+                        <li>{React.string("Choose between question types")}</li>
+                        <li>{React.string("Activate and publish the survey")}</li>
+                        <li>{React.string("Check the responses from your participants")}</li>
+                    </ul>
+                    <button
+                        onClick={evt => setState(_ => {page: Survey_title})}
+                        className="startbutton btn btn-default"
+                    >
+                        {React.string("Start")}
+                    </button>
                 </div>
             | Survey_title => <form>
+                    <p>{React.string("Please enter the title of your survey. This can be changed later.")}</p>
                     <div className="form-group">
-                        <label>{React.string("Survey title:")}</label>
+                        /*<label>{React.string("Survey title:")}</label>*/
                         <input className="form-control" type_="text" />
                     </div>
-                    <a className="previous">{React.string("Previous")}</a>
-                    <button onClick className="btn btn-default next">{React.string("Next")}</button>
+                    <div>
+                        <a
+                            onClick={evt => setState(_ => {page: Start_page})}
+                            className="previous"
+                            role="button"
+                        >
+                            {React.string("Previous")}
+                        </a>
+                        <button onClick className="btn btn-default next">{React.string("Next")}</button>
+                    </div>
                 </form>
         }
 

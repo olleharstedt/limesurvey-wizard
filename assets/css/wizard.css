@@ -20,9 +20,21 @@
     margin: auto;
 }
 
-#wizard-root .introduction {
+#wizard-root p, #wizard-root ul li {
     font-size: 16px;
     font-weight: bold;
+}
+
+#wizard-root ul {
+    text-align: left;
+}
+
+#wizard-root .startpage {
+    display: inline-block;
+}
+
+#wizard-root .startbutton {
+    margin-top: 2em;
 }
 
 #wizard-inputs, #wizard-buttons {
