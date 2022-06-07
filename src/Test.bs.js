@@ -5,9 +5,6 @@ var Curry = require("rescript/lib/js/curry.js");
 var React = require("react");
 var ReactDom = require("react-dom");
 var Caml_exceptions = require("rescript/lib/js/caml_exceptions.js");
-var Styles = require("@material-ui/core/styles");
-
-var theme = Styles.createTheme({});
 
 var closeButtonOriginal = React.createElement("button", {
       className: "close",
@@ -79,15 +76,10 @@ function Test$Wizard(Props) {
 }
 
 var Wizard = {
-  variant: "text",
-  className: "btn btn-default",
-  theme: theme,
   closeButtonOriginal: closeButtonOriginal,
   closeButton: closeButton,
   make: Test$Wizard
 };
-
-console.log("Mooo?");
 
 var NoRoot = /* @__PURE__ */Caml_exceptions.create("Test.NoRoot");
 
@@ -104,4 +96,4 @@ ReactDom.render(React.createElement(Test$Wizard, {}), root);
 
 exports.Wizard = Wizard;
 exports.NoRoot = NoRoot;
-/* theme Not a pure module */
+/* closeButtonOriginal Not a pure module */
