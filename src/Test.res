@@ -13,6 +13,14 @@ module Wizard = {
         make()
     })
 
+    type page = 
+        | Start_page
+        | Survey_title
+
+    type state = {
+        page: page
+    }
+
     /*
     @react.component
     let make = () => {
@@ -53,28 +61,34 @@ module Wizard = {
     @react.component
     let make = () => {
         // state value and setState function
-        let (count, setCount) = React.useState(_ => 0)
+        let (state, setState) = React.useState(_ => {page: Start_page})
 
         let onClick = evt => {
             ReactEvent.Mouse.preventDefault(evt)
             //let value = ReactEvent.Mouse.target(evt)["value"]
-            setCount(prev => prev + 1)
+            setState(_ => {page: Survey_title})
+        }
+
+        let page = switch state.page {
+            | Start_page => <div>
+                    <p className="introduction">{React.string("Hi! 👋")}</p>
+                    <p className="introduction">{React.string("Welcome to the LimeSurvey Wizard, that will guide you through the basics of survey creation.")}</p>
+                </div>
+            | Survey_title => <form>
+                    <div className="form-group">
+                        <label>{React.string("Survey title:")}</label>
+                        <input className="form-control" type_="text" />
+                    </div>
+                    <a className="previous">{React.string("Previous")}</a>
+                    <button onClick className="btn btn-default next">{React.string("Next")}</button>
+                </form>
         }
 
         <div id="wizard-root" className="text-center">
             <h1 id="wizard-header">{React.string("LimeSurvey Wizard")}</h1>
             closeButton
             <div id="wizard-inputs">
-                <form>
-                    <div className="form-group">
-                        <label>{React.string("Survey title:")}</label>
-                        <input className="form-control" type_="" value={Belt.Int.toString(count)} />
-                    </div>
-                </form>
-            </div>
-            <div id="wizard-buttons">
-                <a>{React.string("Previous")}</a>
-                <button onClick className="btn btn-default">{React.string("Next")}</button>
+                page
             </div>
             /*<a href={wizardGlobalData.exitUrl} className="btn btn-default">{React.string("Exit to LimeSurvey application")}</a>*/
         </div>

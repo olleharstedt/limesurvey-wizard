@@ -24,15 +24,35 @@ var closeButton = React.cloneElement(closeButtonOriginal, {
 
 function Test$Wizard(Props) {
   var match = React.useState(function () {
-        return 0;
+        return {
+                page: /* Start_page */0
+              };
       });
-  var setCount = match[1];
+  var setState = match[1];
   var onClick = function (evt) {
     evt.preventDefault();
-    return Curry._1(setCount, (function (prev) {
-                  return prev + 1 | 0;
+    return Curry._1(setState, (function (param) {
+                  return {
+                          page: /* Survey_title */1
+                        };
                 }));
   };
+  var match$1 = match[0].page;
+  var page = match$1 ? React.createElement("form", undefined, React.createElement("div", {
+              className: "form-group"
+            }, React.createElement("label", undefined, "Survey title:"), React.createElement("input", {
+                  className: "form-control",
+                  type: "text"
+                })), React.createElement("a", {
+              className: "previous"
+            }, "Previous"), React.createElement("button", {
+              className: "btn btn-default next",
+              onClick: onClick
+            }, "Next")) : React.createElement("div", undefined, React.createElement("p", {
+              className: "introduction"
+            }, "Hi! \xf0\x9f\x91\x8b"), React.createElement("p", {
+              className: "introduction"
+            }, "Welcome to the LimeSurvey Wizard, that will guide you through the basics of survey creation."));
   return React.createElement("div", {
               className: "text-center",
               id: "wizard-root"
@@ -40,18 +60,7 @@ function Test$Wizard(Props) {
                   id: "wizard-header"
                 }, "LimeSurvey Wizard"), closeButton, React.createElement("div", {
                   id: "wizard-inputs"
-                }, React.createElement("form", undefined, React.createElement("div", {
-                          className: "form-group"
-                        }, React.createElement("label", undefined, "Survey title:"), React.createElement("input", {
-                              className: "form-control",
-                              type: "",
-                              value: String(match[0])
-                            })))), React.createElement("div", {
-                  id: "wizard-buttons"
-                }, React.createElement("a", undefined, "Previous"), React.createElement("button", {
-                      className: "btn btn-default",
-                      onClick: onClick
-                    }, "Next")));
+                }, page));
 }
 
 var Wizard = {
