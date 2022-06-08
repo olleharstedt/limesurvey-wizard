@@ -36,27 +36,26 @@ module Wizard = {
     |> Js.Promise.then_(text => print_endline(text) |> Js.Promise.resolve)
     */
 
+    /*
     module Fetch = {
         type response
         @send external json: response => Js.Promise.t<'a> = "json"
         @val external fetch: string => Js.Promise.t<response> = "fetch"
     }
-
     type todo = {id: string, title: string}
-
     let apiUrl = "https://jsonplaceholder.typicode.com/todos/1"
-
     let fetchTodos = (_): Js.Promise.t<todo> => {
         Fetch.fetch(apiUrl) |> Js_promise.then_(Fetch.json)
     }
+    */
 
     @react.component
     let make = () => {
         // state value and setState function
         let (state, setState) = React.useState(_ => {page: Start_page})
 
+        /*
         let client = ReactQuery.Provider.createClient()
-
         let queryResult = ReactQuery.useQuery(
                 ReactQuery.queryOptions(
                     ~queryFn=fetchTodos,
@@ -65,21 +64,18 @@ module Wizard = {
                     ()
                     )
                 )
-
         switch queryResult {
             | {data: Some(todo), isLoading: false, isError: false} => print_endline(todo.title)
             | _ => print_endline("moo")
         }
+        */
 
         let onClick = evt => {
             ReactEvent.Mouse.preventDefault(evt)
-            /*
-            Js.Promise.(
-                Fetch.fetch("/api/hellos/1")
-                |> then_(Fetch.Response.text)
-                |> then_(text => print_endline(text) |> resolve)
-            )
-            */
+            Fetch.fetch("/api/hellos/1")
+                |> Js.Promise.then_(Fetch.Response.text)
+                |> Js.Promise.then_(text => print_endline(text) |> Js.Promise.resolve)
+                |> ignore
             //let value = ReactEvent.Mouse.target(evt)["value"]
             setState(_ => {page: Survey_title})
         }
@@ -123,9 +119,11 @@ module Wizard = {
         }
 
         <div id="wizard-root" className="text-center">
+            /*
             <ReactQuery.Provider client>
                 <div></div>
             </ReactQuery.Provider>
+            */
             <h1 id="wizard-header">{React.string("LimeSurvey Wizard")}</h1>
             closeButton
             <div id="wizard-inputs">
