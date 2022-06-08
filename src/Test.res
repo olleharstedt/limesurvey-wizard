@@ -5,11 +5,9 @@ type wizardGlobalData = {
 // This is generated in PHP
 @val external wizardGlobalData: wizardGlobalData = "wizardGlobalData"
 
-module Fetch = {
-    type response
-
-    @send external json: response => Js.Promise.t<'a> = "json"
-    @val external fetch: string => Js.Promise.t<response> = "fetch"
+module Jquery = {
+    type t
+    @module external jQuery: string => t = "jquery"
 }
 
 module Wizard = {
@@ -32,9 +30,14 @@ module Wizard = {
         {"data-toggle": "tooltip", "title": "Close wizard", "data-placement": "left"}
     )
 
+    /*
+    let moo = Fetch.fetch("/api/hellos/1")
+    |> Js.Promise.then_(Fetch.Response.text)
+    |> Js.Promise.then_(text => print_endline(text) |> Js.Promise.resolve)
+    */
+
     module Fetch = {
         type response
-
         @send external json: response => Js.Promise.t<'a> = "json"
         @val external fetch: string => Js.Promise.t<response> = "fetch"
     }
@@ -44,17 +47,29 @@ module Wizard = {
     let apiUrl = "https://jsonplaceholder.typicode.com/todos/1"
 
     let fetchTodos = (_): Js.Promise.t<todo> => {
-        Fetch.fetch(apiUrl)->Js_promise.then_(Fetch.json)
+        Fetch.fetch(apiUrl) |> Js_promise.then_(Fetch.json)
     }
-
-    let queryResult = ReactQuery.useQuery(
-        ReactQuery.queryOptions()
-    )
 
     @react.component
     let make = () => {
         // state value and setState function
         let (state, setState) = React.useState(_ => {page: Start_page})
+
+        let client = ReactQuery.Provider.createClient()
+
+        let queryResult = ReactQuery.useQuery(
+                ReactQuery.queryOptions(
+                    ~queryFn=fetchTodos,
+                    ~queryKey="todos",
+                    ~refetchOnWindowFocus=ReactQuery.refetchOnWindowFocus(#bool(false)),
+                    ()
+                    )
+                )
+
+        switch queryResult {
+            | {data: Some(todo), isLoading: false, isError: false} => print_endline(todo.title)
+            | _ => print_endline("moo")
+        }
 
         let onClick = evt => {
             ReactEvent.Mouse.preventDefault(evt)
@@ -108,6 +123,9 @@ module Wizard = {
         }
 
         <div id="wizard-root" className="text-center">
+            <ReactQuery.Provider client>
+                <div></div>
+            </ReactQuery.Provider>
             <h1 id="wizard-header">{React.string("LimeSurvey Wizard")}</h1>
             closeButton
             <div id="wizard-inputs">

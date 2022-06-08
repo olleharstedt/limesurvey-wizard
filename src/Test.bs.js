@@ -4,10 +4,11 @@
 var Curry = require("rescript/lib/js/curry.js");
 var React = require("react");
 var ReactDom = require("react-dom");
-var ReactQuery = require("react-query");
+var ReactQuery = require("@rescriptbr/react-query/src/ReactQuery.bs.js");
+var ReactQuery$1 = require("react-query");
 var Caml_exceptions = require("rescript/lib/js/caml_exceptions.js");
 
-var Fetch = {};
+var Jquery = {};
 
 var closeButtonOriginal = React.createElement("button", {
       className: "close",
@@ -22,7 +23,15 @@ var closeButton = React.cloneElement(closeButtonOriginal, {
       "data-placement": "left"
     });
 
-var queryResult = ReactQuery.useQuery({});
+var Fetch = {};
+
+var apiUrl = "https://jsonplaceholder.typicode.com/todos/1";
+
+function fetchTodos(param) {
+  return fetch(apiUrl).then(function (prim) {
+              return prim.json();
+            });
+}
 
 function Test$Wizard(Props) {
   var match = React.useState(function () {
@@ -31,6 +40,25 @@ function Test$Wizard(Props) {
               };
       });
   var setState = match[1];
+  var client = new ReactQuery$1.QueryClient();
+  var queryResult = ReactQuery$1.useQuery({
+        queryKey: "todos",
+        queryFn: fetchTodos,
+        refetchOnWindowFocus: ReactQuery.refetchOnWindowFocus({
+              NAME: "bool",
+              VAL: false
+            })
+      });
+  if (queryResult.isError || queryResult.isLoading) {
+    console.log("moo");
+  } else {
+    var todo = queryResult.data;
+    if (todo !== undefined) {
+      console.log(todo.title);
+    } else {
+      console.log("moo");
+    }
+  }
   var onClick = function (evt) {
     evt.preventDefault();
     return Curry._1(setState, (function (param) {
@@ -73,7 +101,10 @@ function Test$Wizard(Props) {
   return React.createElement("div", {
               className: "text-center",
               id: "wizard-root"
-            }, React.createElement("h1", {
+            }, React.createElement(ReactQuery$1.QueryClientProvider, {
+                  client: client,
+                  children: React.createElement("div", undefined)
+                }), React.createElement("h1", {
                   id: "wizard-header"
                 }, "LimeSurvey Wizard"), closeButton, React.createElement("div", {
                   id: "wizard-inputs"
@@ -83,7 +114,9 @@ function Test$Wizard(Props) {
 var Wizard = {
   closeButtonOriginal: closeButtonOriginal,
   closeButton: closeButton,
-  queryResult: queryResult,
+  Fetch: Fetch,
+  apiUrl: apiUrl,
+  fetchTodos: fetchTodos,
   make: Test$Wizard
 };
 
@@ -100,7 +133,7 @@ if (root == null) {
 
 ReactDom.render(React.createElement(Test$Wizard, {}), root);
 
-exports.Fetch = Fetch;
+exports.Jquery = Jquery;
 exports.Wizard = Wizard;
 exports.NoRoot = NoRoot;
 /* closeButtonOriginal Not a pure module */
