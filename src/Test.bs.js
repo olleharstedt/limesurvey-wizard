@@ -4,7 +4,10 @@
 var Curry = require("rescript/lib/js/curry.js");
 var React = require("react");
 var ReactDom = require("react-dom");
+var ReactQuery = require("react-query");
 var Caml_exceptions = require("rescript/lib/js/caml_exceptions.js");
+
+var Fetch = {};
 
 var closeButtonOriginal = React.createElement("button", {
       className: "close",
@@ -18,6 +21,8 @@ var closeButton = React.cloneElement(closeButtonOriginal, {
       title: "Close wizard",
       "data-placement": "left"
     });
+
+var queryResult = ReactQuery.useQuery({});
 
 function Test$Wizard(Props) {
   var match = React.useState(function () {
@@ -78,6 +83,7 @@ function Test$Wizard(Props) {
 var Wizard = {
   closeButtonOriginal: closeButtonOriginal,
   closeButton: closeButton,
+  queryResult: queryResult,
   make: Test$Wizard
 };
 
@@ -94,6 +100,7 @@ if (root == null) {
 
 ReactDom.render(React.createElement(Test$Wizard, {}), root);
 
+exports.Fetch = Fetch;
 exports.Wizard = Wizard;
 exports.NoRoot = NoRoot;
 /* closeButtonOriginal Not a pure module */

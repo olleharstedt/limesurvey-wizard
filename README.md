@@ -2,18 +2,27 @@ Made using PHP, React and ReScript
 
 License: GPL-2
 
-**Technology**:
+**Technology:**
 
 * ReScript
 * React 16+
 * MUI
 * PHP for backend
 
-**Installation**:
+**Installation:**
 
-    npm install
+    npm --legacy-peer-deps install
 
-**Build**:
+**Build:**
+
+In two different shells, for hot reload:
 
     npx rescript build [-w]
     ./node_modules/webpack/bin/webpack.js
+
+**Notes:**
+
+Neither works?
+
+* bs-fetch
+* react-query

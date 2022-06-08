@@ -15,7 +15,7 @@
   "suffix": ".bs.js",
   "bs-dependencies": [
     "@rescript/react",
-    "rescript-material-ui"
+    "@rescriptbr/react-query"
   ],
   "reason": {
     "react-jsx": 3

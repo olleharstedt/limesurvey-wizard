@@ -4,8 +4,12 @@
         "re:start": "rescript build -w"
     },
     "dependencies": {
-        "@rescript/react": "^0.10.3",
-        "rescript-material-ui": "^3.0.2",
+        "@rescript/react": "0.10.3",
+        "@rescriptbr/react-query": "0.0.1",
+        "react": "17.0.0",
+        "react-dom": "17.0.0",
+        "react-query": "3.39.1",
+        "rescript": "9.1.4",
         "webpack": "^5.72.1"
     },
     "devDependencies": {

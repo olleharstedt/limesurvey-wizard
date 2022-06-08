@@ -5,6 +5,13 @@ type wizardGlobalData = {
 // This is generated in PHP
 @val external wizardGlobalData: wizardGlobalData = "wizardGlobalData"
 
+module Fetch = {
+    type response
+
+    @send external json: response => Js.Promise.t<'a> = "json"
+    @val external fetch: string => Js.Promise.t<response> = "fetch"
+}
+
 module Wizard = {
     type page = 
         | Start_page
@@ -25,6 +32,25 @@ module Wizard = {
         {"data-toggle": "tooltip", "title": "Close wizard", "data-placement": "left"}
     )
 
+    module Fetch = {
+        type response
+
+        @send external json: response => Js.Promise.t<'a> = "json"
+        @val external fetch: string => Js.Promise.t<response> = "fetch"
+    }
+
+    type todo = {id: string, title: string}
+
+    let apiUrl = "https://jsonplaceholder.typicode.com/todos/1"
+
+    let fetchTodos = (_): Js.Promise.t<todo> => {
+        Fetch.fetch(apiUrl)->Js_promise.then_(Fetch.json)
+    }
+
+    let queryResult = ReactQuery.useQuery(
+        ReactQuery.queryOptions()
+    )
+
     @react.component
     let make = () => {
         // state value and setState function
@@ -32,6 +58,13 @@ module Wizard = {
 
         let onClick = evt => {
             ReactEvent.Mouse.preventDefault(evt)
+            /*
+            Js.Promise.(
+                Fetch.fetch("/api/hellos/1")
+                |> then_(Fetch.Response.text)
+                |> then_(text => print_endline(text) |> resolve)
+            )
+            */
             //let value = ReactEvent.Mouse.target(evt)["value"]
             setState(_ => {page: Survey_title})
         }
