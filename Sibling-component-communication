@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-04T16:03:13.475Z" agent="5.0 (X11)" etag="g1mXZBPytAM2SUcNm-pl" version="20.2.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-04T16:07:51.690Z" agent="5.0 (X11)" etag="hvBvoVjWqTUoyxqjHr5G" version="20.2.6" type="github">
   <diagram name="Page-1" id="10a91c8b-09ff-31b1-d368-03940ed4cc9e">
     <mxGraphModel dx="1185" dy="634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -28,6 +28,9 @@
         </mxCell>
         <mxCell id="tjqfg19R8EU2B4daezAw-1" value="Easy to follow the code flow" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
           <mxGeometry x="280" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tjqfg19R8EU2B4daezAw-4" value="A sibling is a component that is neither a child nor parent to another component" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="700" y="20" width="320" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
