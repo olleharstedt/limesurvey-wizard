@@ -1,1 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2022-11-04T15:27:46.882Z" agent="5.0 (X11)" etag="O-CASbHWOOXx2EFZqezo" version="20.2.6" type="github"><diagram name="Page-1" id="10a91c8b-09ff-31b1-d368-03940ed4cc9e">7VjLcpswFP0als7wsAEva8dOFn2kTZO0SwEXUCJLrhB+9OsrgcAQ4TRJp5l00o1H91whpHOOroQtb77anXG0zj+wBIjl2snO8k4t1506U/mrgH0NBL5TAxnHSQ11gEv8EzRoa7TECRS9joIxIvC6D8aMUohFD0Ocs22/W8pI/61rlIEBXMaImOgNTkSuUce2D4lzwFmuXx1OdCJC8V3GWUn1+yijUGdWqBlGdy1ylLBtB/IWljfnjIm6tdrNgShWG8bq55ZHsu2UOVDxmAd8N5x6ThjGdooCz3dHeoQNIqWm4aoAJQZhEVJPFiXfwF42WHSrWK+XIfYNa9scC7hco1jFW2kMy5vlYkVk5MhmRQskOmqXrwKCIiCzlrs5I4zLVMWe7Co4u2uFUP1TRsUSrTBR/roGniCKNKzN5Eg+Z4jgjMoglpSAHHBmctQsGriAXQfSnJ0BW4HgatE66zce1dZulN92fNJInHcs4msMaWtm7cgHjWRDyzQsGSYfL0aL889l+vXHdbRzruaL/SgwZDOEYVzkLGMUkfeMrTWHtyDEXrOFSsH6YrXy2DKAHRbfOu3vupNqn+46idN9E9DkndqHBxElssRqZVX+4AUVpTLRaG65XjKBMBm3wncyoRt5vt8KCYmxjQ1lC1byGB62vEA8A/EAx/6wJTgQJPCmP4c/EdiYoGuIu6AoIrI2quI3kmIqFvAb3YvjoL8XneAFN6OhlWdoNZNbTK5VPpMqnVCcV7Kt1pJLuWg5J6SExEL9si1VfAAvcCGAKuGWb1PWIHxNso4NWT9Vxx9m1JCnX9Y6wvyOfcTFvXpZYZ2KWcWa+ckjKqyMOr0Hiv3gofBsH9wr4WkYQxwPlfAonIwnth6hwRNIUUnEQ/Z5ah0/tj3vnRlHTWif2I437fnQndTho8u+HvyC4Wq3N11YmhYgDFO2c3ieTycD9wC/4jTBG9nMVPMLoEL51tdkLzu5/25u3fz0C89zrzB/w+nu05w+sk/8cBr0rD5yp6/I68fvZEeuRvL7DFM0WKL/lRPUOC4HvHJUUs99uRNUhoeP1lrcw38C3uIX</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-04T15:33:46.991Z" agent="5.0 (X11)" etag="LchcxZf07bMDS-cLidiV" version="20.2.6" type="github">
+  <diagram name="Page-1" id="10a91c8b-09ff-31b1-d368-03940ed4cc9e">
+    <mxGraphModel dx="919" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="62893188c0fa7362-1" value="Use global survey object" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="610" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ilNP-EHQufTqVbx1UCEy-7" value="Objection" style="orthogonalLoop=1;jettySize=auto;html=1;shadow=0;exitX=1;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Verdana;fontSize=12;" parent="1" source="62893188c0fa7362-1" target="ilNP-EHQufTqVbx1UCEy-6" edge="1">
+          <mxGeometry x="-0.008" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="62893188c0fa7362-2" value="Enables co-op edit" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="470" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="62893188c0fa7362-3" value="Better if each component has its own persistence?" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="730" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="62893188c0fa7362-4" value="Objection" style="rounded=0;html=1;labelBackgroundColor=default;startArrow=none;startFill=0;startSize=5;endArrow=none;endFill=0;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=12;fillColor=#f8cecc;strokeColor=#b85450;fontColor=default;" parent="1" source="62893188c0fa7362-1" target="62893188c0fa7362-3" edge="1">
+          <mxGeometry x="-0.1667" y="-7" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="62893188c0fa7362-5" value="&lt;div&gt;Reason&lt;/div&gt;" style="rounded=0;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=none;endFill=0;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=12;exitX=0;exitY=1;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="62893188c0fa7362-1" target="62893188c0fa7362-2" edge="1">
+          <mxGeometry x="-0.6897" y="-29" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q3-LoGvM8khBbAgoycWg-5" value="&lt;div style=&quot;font-size: 12px;&quot;&gt;Objection&lt;/div&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Verdana;fontSize=12;" edge="1" parent="1" source="ilNP-EHQufTqVbx1UCEy-6" target="q3-LoGvM8khBbAgoycWg-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ilNP-EHQufTqVbx1UCEy-6" value="Pagination easier without" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="870" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q3-LoGvM8khBbAgoycWg-4" value="Won&#39;t need pagination, since 3000 question is only 500 kb" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
