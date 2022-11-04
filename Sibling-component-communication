@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-04T16:23:09.633Z" agent="5.0 (X11)" etag="LZVYfmiAtxEQ1cYp6Q2Z" version="20.2.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-04T16:26:53.224Z" agent="5.0 (X11)" etag="QAJihW1bobNt7F6EZzjg" version="20.2.6" type="github">
   <diagram name="Page-1" id="10a91c8b-09ff-31b1-d368-03940ed4cc9e">
     <mxGraphModel dx="1185" dy="1484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -75,10 +75,13 @@
           <mxGeometry x="810" y="275" width="150" height="90" as="geometry" />
         </mxCell>
         <mxCell id="tjqfg19R8EU2B4daezAw-20" value="What about global state?" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
-          <mxGeometry x="960" y="425" width="120" height="60" as="geometry" />
+          <mxGeometry x="870" y="425" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tjqfg19R8EU2B4daezAw-22" value="&quot;Should be handle with setState in the parent and passed to the children via props&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="tjqfg19R8EU2B4daezAw-22" value="&quot;Should be handled with setState in the parent and passed to the children via props&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="760" y="30" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tjqfg19R8EU2B4daezAw-33" value="Reason" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="tjqfg19R8EU2B4daezAw-23" target="tjqfg19R8EU2B4daezAw-32">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tjqfg19R8EU2B4daezAw-23" value="react-query can persist data, useState cannot" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
           <mxGeometry x="1040" y="290" width="120" height="60" as="geometry" />
@@ -94,6 +97,9 @@
         </mxCell>
         <mxCell id="tjqfg19R8EU2B4daezAw-30" value="But that&#39;s unrelated to sibling comm?" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
           <mxGeometry x="1380" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tjqfg19R8EU2B4daezAw-32" value="That&#39;s why we should use react-query for UI changes" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="425" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
