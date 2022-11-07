@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-07T11:33:29.881Z" agent="5.0 (X11)" etag="aLa15BCaVRdQxhnqkM6F" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-07T11:36:06.068Z" agent="5.0 (X11)" etag="1mCHSOSHAeKm_PxvOkgV" version="20.5.1" type="github">
   <diagram name="Page-1" id="10a91c8b-09ff-31b1-d368-03940ed4cc9e">
     <mxGraphModel dx="1422" dy="1611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -122,7 +122,7 @@
         <mxCell id="tjqfg19R8EU2B4daezAw-38" value="But does same thing as react-query" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="720" y="425" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tjqfg19R8EU2B4daezAw-40" value="Need Moscow analysis" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;" parent="1" vertex="1">
+        <mxCell id="tjqfg19R8EU2B4daezAw-40" value="TODO: Need Moscow analysis" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;labelBackgroundColor=#FF8000;fontColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="1380" y="390" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tjqfg19R8EU2B4daezAw-41" value="Can be persisted?&lt;br&gt;What&#39;s the objection?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;" parent="1" vertex="1">
