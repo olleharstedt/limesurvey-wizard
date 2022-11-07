@@ -1,19 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2022-11-04T16:46:20.360Z" agent="5.0 (X11)" etag="jNpioFml7ryCUJXVM-_M" version="20.2.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-07T11:33:29.881Z" agent="5.0 (X11)" etag="aLa15BCaVRdQxhnqkM6F" version="20.5.1" type="github">
   <diagram name="Page-1" id="10a91c8b-09ff-31b1-d368-03940ed4cc9e">
-    <mxGraphModel dx="1185" dy="1484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="1611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="tjqfg19R8EU2B4daezAw-2" value="Reason" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;endArrow=none;endFill=0;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Verdana;fontSize=12;" edge="1" parent="1" source="62893188c0fa7362-1" target="tjqfg19R8EU2B4daezAw-1">
+        <mxCell id="tjqfg19R8EU2B4daezAw-2" value="Reason" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;endArrow=none;endFill=0;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Verdana;fontSize=12;" parent="1" source="62893188c0fa7362-1" target="tjqfg19R8EU2B4daezAw-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tjqfg19R8EU2B4daezAw-11" value="Objection" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="62893188c0fa7362-1" target="tjqfg19R8EU2B4daezAw-10">
+        <mxCell id="tjqfg19R8EU2B4daezAw-11" value="Objection" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="62893188c0fa7362-1" target="tjqfg19R8EU2B4daezAw-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tjqfg19R8EU2B4daezAw-13" value="Objection" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="62893188c0fa7362-1" target="tjqfg19R8EU2B4daezAw-12">
+        <mxCell id="tjqfg19R8EU2B4daezAw-13" value="Objection" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="62893188c0fa7362-1" target="tjqfg19R8EU2B4daezAw-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tjqfg19R8EU2B4daezAw-29" value="Objection" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="62893188c0fa7362-1" target="tjqfg19R8EU2B4daezAw-28">
+        <mxCell id="tjqfg19R8EU2B4daezAw-29" value="Objection" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="62893188c0fa7362-1" target="tjqfg19R8EU2B4daezAw-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="62893188c0fa7362-1" value="Sibling communication should be done via props" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
@@ -22,10 +22,10 @@
         <mxCell id="62893188c0fa7362-2" value="Simple" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="430" y="170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tjqfg19R8EU2B4daezAw-6" value="Reason" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="62893188c0fa7362-3" target="tjqfg19R8EU2B4daezAw-5">
+        <mxCell id="tjqfg19R8EU2B4daezAw-6" value="Reason" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="62893188c0fa7362-3" target="tjqfg19R8EU2B4daezAw-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tjqfg19R8EU2B4daezAw-37" value="Reason" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="62893188c0fa7362-3" target="tjqfg19R8EU2B4daezAw-36">
+        <mxCell id="tjqfg19R8EU2B4daezAw-37" value="Reason" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="62893188c0fa7362-3" target="tjqfg19R8EU2B4daezAw-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="62893188c0fa7362-3" value="A context requires less passing around" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
@@ -41,89 +41,95 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tjqfg19R8EU2B4daezAw-1" value="Easy to follow the code flow" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+        <mxCell id="tjqfg19R8EU2B4daezAw-1" value="Easy to follow the code flow" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="280" y="170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tjqfg19R8EU2B4daezAw-4" value="A sibling is a component that is neither a child nor parent to the other component" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="tjqfg19R8EU2B4daezAw-4" value="A sibling is a component that is neither a child nor parent to the other component" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="750" y="-10" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tjqfg19R8EU2B4daezAw-21" value="Objection" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="tjqfg19R8EU2B4daezAw-16" target="tjqfg19R8EU2B4daezAw-20">
+        <mxCell id="tjqfg19R8EU2B4daezAw-21" value="Objection" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="tjqfg19R8EU2B4daezAw-16" target="tjqfg19R8EU2B4daezAw-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tjqfg19R8EU2B4daezAw-5" value="Equally easy to follow as props" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+        <mxCell id="tjqfg19R8EU2B4daezAw-5" value="Equally easy to follow as props" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="430" y="290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tjqfg19R8EU2B4daezAw-17" value="Reason" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="tjqfg19R8EU2B4daezAw-10" target="tjqfg19R8EU2B4daezAw-16">
+        <mxCell id="tjqfg19R8EU2B4daezAw-17" value="Reason" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="tjqfg19R8EU2B4daezAw-10" target="tjqfg19R8EU2B4daezAw-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tjqfg19R8EU2B4daezAw-10" value="Argument is too general" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+        <mxCell id="tjqfg19R8EU2B4daezAw-10" value="Argument is too general" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="930" y="170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tjqfg19R8EU2B4daezAw-15" value="Objection" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="tjqfg19R8EU2B4daezAw-12" target="tjqfg19R8EU2B4daezAw-14">
+        <mxCell id="tjqfg19R8EU2B4daezAw-15" value="Objection" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="tjqfg19R8EU2B4daezAw-12" target="tjqfg19R8EU2B4daezAw-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tjqfg19R8EU2B4daezAw-24" value="Reason" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="tjqfg19R8EU2B4daezAw-12" target="tjqfg19R8EU2B4daezAw-23">
+        <mxCell id="tjqfg19R8EU2B4daezAw-24" value="Reason" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="tjqfg19R8EU2B4daezAw-12" target="tjqfg19R8EU2B4daezAw-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tjqfg19R8EU2B4daezAw-12" value="Won&#39;t allow persistence" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+        <mxCell id="tjqfg19R8EU2B4daezAw-12" value="Won&#39;t allow persistence" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="1090" y="170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tjqfg19R8EU2B4daezAw-26" value="Objection" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="tjqfg19R8EU2B4daezAw-14" target="tjqfg19R8EU2B4daezAw-25">
+        <mxCell id="tjqfg19R8EU2B4daezAw-26" value="Objection" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="tjqfg19R8EU2B4daezAw-14" target="tjqfg19R8EU2B4daezAw-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tjqfg19R8EU2B4daezAw-14" value="But we won&#39;t need persistence for e.g. toggling show/hide of menus?" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+        <mxCell id="tjqfg19R8EU2B4daezAw-14" value="But we won&#39;t need persistence for e.g. toggling show/hide of menus?" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="1190" y="290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tjqfg19R8EU2B4daezAw-16" value="&quot;Local-only state shared by siblings should be passed by the parent in props, if possible.&quot;" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+        <mxCell id="tjqfg19R8EU2B4daezAw-16" value="&quot;Local-only state shared by siblings should be passed by the parent in props, if possible.&quot;" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="810" y="275" width="150" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="tjqfg19R8EU2B4daezAw-20" value="What about global state?" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+        <mxCell id="tjqfg19R8EU2B4daezAw-20" value="What about global state?" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="870" y="425" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tjqfg19R8EU2B4daezAw-22" value="&quot;Should be handled with setState in the parent and passed to the children via props&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="tjqfg19R8EU2B4daezAw-22" value="&quot;Should be handled with setState in the parent and passed to the children via props&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="760" y="30" width="300" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tjqfg19R8EU2B4daezAw-33" value="Reason" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="tjqfg19R8EU2B4daezAw-23" target="tjqfg19R8EU2B4daezAw-32">
+        <mxCell id="tjqfg19R8EU2B4daezAw-33" value="Reason" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="tjqfg19R8EU2B4daezAw-23" target="tjqfg19R8EU2B4daezAw-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tjqfg19R8EU2B4daezAw-23" value="react-query can persist data, useState cannot" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+        <mxCell id="tjqfg19R8EU2B4daezAw-23" value="react-query can persist data, useState cannot" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="1040" y="290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tjqfg19R8EU2B4daezAw-31" value="Objection" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="tjqfg19R8EU2B4daezAw-25" target="tjqfg19R8EU2B4daezAw-30">
+        <mxCell id="tjqfg19R8EU2B4daezAw-31" value="Objection" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="tjqfg19R8EU2B4daezAw-25" target="tjqfg19R8EU2B4daezAw-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tjqfg19R8EU2B4daezAw-25" value="UI state might be nice to persist (in browser)" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+        <mxCell id="tjqfg19R8EU2B4daezAw-25" value="UI state might be nice to persist (in browser)" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="1280" y="425" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tjqfg19R8EU2B4daezAw-28" value="There are also events (no one likes that :( )" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+        <mxCell id="tjqfg19R8EU2B4daezAw-28" value="There are also events (no one likes that :( )" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="1260" y="170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tjqfg19R8EU2B4daezAw-35" value="Objection" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="tjqfg19R8EU2B4daezAw-30" target="tjqfg19R8EU2B4daezAw-34">
+        <mxCell id="tjqfg19R8EU2B4daezAw-35" value="Objection" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="tjqfg19R8EU2B4daezAw-30" target="tjqfg19R8EU2B4daezAw-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tjqfg19R8EU2B4daezAw-30" value="But that&#39;s unrelated to sibling comm?" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+        <mxCell id="tjqfg19R8EU2B4daezAw-30" value="But that&#39;s unrelated to sibling comm?" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="1380" y="550" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tjqfg19R8EU2B4daezAw-32" value="That&#39;s why we should use react-query for UI changes" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+        <mxCell id="tjqfg19R8EU2B4daezAw-32" value="That&#39;s why we should use react-query for UI changes" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="1010" y="425" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tjqfg19R8EU2B4daezAw-34" value="Not all" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+        <mxCell id="tjqfg19R8EU2B4daezAw-34" value="Not all" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="1480" y="660" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tjqfg19R8EU2B4daezAw-39" value="Objection" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="tjqfg19R8EU2B4daezAw-36" target="tjqfg19R8EU2B4daezAw-38">
+        <mxCell id="tjqfg19R8EU2B4daezAw-39" value="Objection" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="tjqfg19R8EU2B4daezAw-36" target="tjqfg19R8EU2B4daezAw-38" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tjqfg19R8EU2B4daezAw-36" value="Can also be persisted" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+        <mxCell id="B8hc1c6_lcTi9mDpZdcu-2" value="Objection" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Verdana;fontSize=12;" edge="1" parent="1" source="tjqfg19R8EU2B4daezAw-36" target="B8hc1c6_lcTi9mDpZdcu-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tjqfg19R8EU2B4daezAw-36" value="Can also be persisted" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="600" y="290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tjqfg19R8EU2B4daezAw-38" value="But does same thing as react-query" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
-          <mxGeometry x="680" y="425" width="120" height="60" as="geometry" />
+        <mxCell id="tjqfg19R8EU2B4daezAw-38" value="But does same thing as react-query" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="720" y="425" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tjqfg19R8EU2B4daezAw-40" value="Need Moscow analysis" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="tjqfg19R8EU2B4daezAw-40" value="Need Moscow analysis" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="1380" y="390" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tjqfg19R8EU2B4daezAw-41" value="Can be persisted?&lt;br&gt;What&#39;s the objection?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="tjqfg19R8EU2B4daezAw-41" value="Can be persisted?&lt;br&gt;What&#39;s the objection?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="1330" y="130" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B8hc1c6_lcTi9mDpZdcu-1" value="&quot;Not less complex that react-query&quot;" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="580" y="425" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
