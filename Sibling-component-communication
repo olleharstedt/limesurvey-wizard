@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-07T11:36:06.068Z" agent="5.0 (X11)" etag="1mCHSOSHAeKm_PxvOkgV" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-07T11:54:49.878Z" agent="5.0 (X11)" etag="59qxnsuP3_2vBkXJvM9v" version="20.5.1" type="github">
   <diagram name="Page-1" id="10a91c8b-09ff-31b1-d368-03940ed4cc9e">
     <mxGraphModel dx="1422" dy="1611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -95,6 +95,9 @@
         <mxCell id="tjqfg19R8EU2B4daezAw-25" value="UI state might be nice to persist (in browser)" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="1280" y="425" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="B8hc1c6_lcTi9mDpZdcu-4" value="Objection" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;endArrow=none;endFill=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="tjqfg19R8EU2B4daezAw-28" target="B8hc1c6_lcTi9mDpZdcu-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="tjqfg19R8EU2B4daezAw-28" value="There are also events (no one likes that :( )" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="1260" y="170" width="120" height="60" as="geometry" />
         </mxCell>
@@ -130,6 +133,9 @@
         </mxCell>
         <mxCell id="B8hc1c6_lcTi9mDpZdcu-1" value="&quot;Not less complex that react-query&quot;" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
           <mxGeometry x="580" y="425" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B8hc1c6_lcTi9mDpZdcu-3" value="Not needed if we already decided on react-query" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="290" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
