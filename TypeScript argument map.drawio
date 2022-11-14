@@ -1,1 +1,59 @@
-<mxfile host="app.diagrams.net" modified="2022-11-14T15:10:46.016Z" agent="5.0 (X11)" etag="N_rfB4km_ahr9kerdxB1" version="20.5.3" type="github"><diagram name="Page-1" id="10a91c8b-09ff-31b1-d368-03940ed4cc9e">7VdLc5swEP41HN3BYDA5xs7r0E4zSdocOzIsoERoGSHs0F9fCQQGY2ccT9PHtCek1bKSvocElrvMXq4FydNPGAGzHDt6sdwLy3GmMztQDx2pmsh8Nm8CiaCRSdoG7ul3MEHbREsaQTFIlIhM0nwYDJFzCOUgRoTAzTAtRjacNScJjAL3IWHj6CONZGqiU9veDtwATVIzdeCZgRUJnxOBJTfzceTQjGSkLWNSi5REuOmF3EvLXQpE2bSylyUwDWuLWPPe1YHRbskCuDzmBd8JztxpEIR2TOau70xMhTVhpYHhocoVKoLm0ixZVi1Cm5RKuM9JqPsbpQLLXaQyY6o3Vc0aAohMr9uq7jCyArbocFoiQ6GGaqRUqhT43IGu82Pk8opklGktfQUREU5M2AhnqrBbEEYTrjqh2j6ogosxHu0GQUh46YUMPteAGUhRqRQz6rd6NDJuWd70NNHSmfbk4JsYMTJMuspbPlTDUHIkPc6IHsvxmZpxEdG1aia6eStgrferrZFlyLUky6RQD0aflRJtXtazgDKJ0CtUQlUgCcx1jqxyLNqqK9EWbSNqyb2p/k1JzNyhJKbzX6iJ88dJXH27wbvlQ/blNgqeLu1y4o508Xn1pA5FqtnfoWjLga3gQCFTTJAT9hExN9g+gZSVQZGUEockAo/O9fm6ZUdFrqhecV0yVs2WPstx4yCEMOw47I2sAm/m2cdz2WwFotG5PeKywFKEcMBEBixJRALyFVCd/SIQwIik6+EafqrLx2xeIGhvcpS1U1t/E1515v4XjTgPfqMRR7TNTjZhj5gD6EcQk7I+gAulW7njvzrWc2DdN+B7RzhW9XrZe9y/95Q4WQpvPyBOM3r71dgz+iGv7RwqBxU3sT/Y88AbqK6tcfTBYKrfIm1cbFIwjguQIwl2izhNld5IlXdAiv+SfFWSkQdBNNsnycBZub7fVjDo2e+nT+fN+px6bjDQp/8HyfPwRTv86UDUn69EQoKCqn+yv/Z+G11me2RykM2znfvNtd/vflPd7X9nw+z2v969/AE=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-14T15:16:10.611Z" agent="5.0 (X11)" etag="GVgL0BR8v9TQprNuhTN8" version="20.5.3" type="github">
+  <diagram name="Page-1" id="10a91c8b-09ff-31b1-d368-03940ed4cc9e">
+    <mxGraphModel dx="1408" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kOaFZ-sLMDl_HOCN700E-3" value="Objection" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;" edge="1" parent="1" source="62893188c0fa7362-1" target="kOaFZ-sLMDl_HOCN700E-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kOaFZ-sLMDl_HOCN700E-7" value="Objection" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;" edge="1" parent="1" source="62893188c0fa7362-1" target="kOaFZ-sLMDl_HOCN700E-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="62893188c0fa7362-1" value="TypeScript" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="610" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="62893188c0fa7362-2" value="&lt;div&gt;Prevents common bugs like null error and props typos&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="430" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AW-fy_HoRCTmUPd8jE0u-3" value="Objection" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fontFamily=Verdana;fontSize=12;" parent="1" source="62893188c0fa7362-3" target="AW-fy_HoRCTmUPd8jE0u-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="62893188c0fa7362-3" value="Does not prevent any bugs" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="690" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="62893188c0fa7362-4" value="Objection" style="rounded=0;html=1;labelBackgroundColor=default;startArrow=none;startFill=0;startSize=5;endArrow=none;endFill=0;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=12;" parent="1" source="62893188c0fa7362-1" target="62893188c0fa7362-3" edge="1">
+          <mxGeometry x="-0.0785" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="62893188c0fa7362-5" value="Reason" style="rounded=0;html=1;labelBackgroundColor=default;startArrow=none;startFill=0;startSize=5;endArrow=none;endFill=0;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=12;fontStyle=0" parent="1" source="62893188c0fa7362-1" target="62893188c0fa7362-2" edge="1">
+          <mxGeometry x="-0.1538" y="6" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AW-fy_HoRCTmUPd8jE0u-2" value="Too categorical" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="780" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kOaFZ-sLMDl_HOCN700E-5" value="Objection" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;" edge="1" parent="1" source="kOaFZ-sLMDl_HOCN700E-2" target="kOaFZ-sLMDl_HOCN700E-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kOaFZ-sLMDl_HOCN700E-2" value="Longer onboarding for PHP devs" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="880" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kOaFZ-sLMDl_HOCN700E-4" value="But TS can also help new developers" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kOaFZ-sLMDl_HOCN700E-10" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;" edge="1" parent="1" source="kOaFZ-sLMDl_HOCN700E-6" target="kOaFZ-sLMDl_HOCN700E-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kOaFZ-sLMDl_HOCN700E-6" value="Adds complexity" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kOaFZ-sLMDl_HOCN700E-9" value="What type of complexity?" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
