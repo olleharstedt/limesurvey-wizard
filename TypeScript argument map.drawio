@@ -1,31 +1,34 @@
-<mxfile host="app.diagrams.net" modified="2022-11-14T15:33:51.707Z" agent="5.0 (X11)" etag="4Z-gPTUXT-oCSJVBSHHX" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-14T15:49:55.617Z" agent="5.0 (X11)" etag="l3uTkDze7O2h_ogl-tco" version="20.5.3" type="github">
   <diagram name="Page-1" id="10a91c8b-09ff-31b1-d368-03940ed4cc9e">
-    <mxGraphModel dx="1408" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2508" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="kOaFZ-sLMDl_HOCN700E-3" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;" edge="1" parent="1" source="62893188c0fa7362-1" target="kOaFZ-sLMDl_HOCN700E-2">
+        <mxCell id="kOaFZ-sLMDl_HOCN700E-3" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;" parent="1" source="62893188c0fa7362-1" target="kOaFZ-sLMDl_HOCN700E-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kOaFZ-sLMDl_HOCN700E-7" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;" edge="1" parent="1" source="62893188c0fa7362-1" target="kOaFZ-sLMDl_HOCN700E-6">
+        <mxCell id="kOaFZ-sLMDl_HOCN700E-7" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;" parent="1" source="62893188c0fa7362-1" target="kOaFZ-sLMDl_HOCN700E-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kOaFZ-sLMDl_HOCN700E-14" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;" edge="1" parent="1" source="62893188c0fa7362-1" target="kOaFZ-sLMDl_HOCN700E-13">
+        <mxCell id="kOaFZ-sLMDl_HOCN700E-14" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;" parent="1" source="62893188c0fa7362-1" target="kOaFZ-sLMDl_HOCN700E-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kOaFZ-sLMDl_HOCN700E-33" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;" edge="1" parent="1" source="62893188c0fa7362-1" target="kOaFZ-sLMDl_HOCN700E-32">
+        <mxCell id="kOaFZ-sLMDl_HOCN700E-33" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;" parent="1" source="62893188c0fa7362-1" target="kOaFZ-sLMDl_HOCN700E-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kOaFZ-sLMDl_HOCN700E-35" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;" edge="1" parent="1" source="62893188c0fa7362-1" target="kOaFZ-sLMDl_HOCN700E-34">
+        <mxCell id="kOaFZ-sLMDl_HOCN700E-35" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;" parent="1" source="62893188c0fa7362-1" target="kOaFZ-sLMDl_HOCN700E-34" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xKnO4bN-qSB2wQGIqfhH-2" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="62893188c0fa7362-1" target="xKnO4bN-qSB2wQGIqfhH-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="62893188c0fa7362-1" value="TypeScript" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;strokeColor=#FFB366;" parent="1" vertex="1">
           <mxGeometry x="610" y="50" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kOaFZ-sLMDl_HOCN700E-18" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;" edge="1" parent="1" source="62893188c0fa7362-2" target="kOaFZ-sLMDl_HOCN700E-17">
+        <mxCell id="kOaFZ-sLMDl_HOCN700E-18" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;" parent="1" source="62893188c0fa7362-2" target="kOaFZ-sLMDl_HOCN700E-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kOaFZ-sLMDl_HOCN700E-22" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;" edge="1" parent="1" source="62893188c0fa7362-2" target="kOaFZ-sLMDl_HOCN700E-21">
+        <mxCell id="kOaFZ-sLMDl_HOCN700E-22" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;" parent="1" source="62893188c0fa7362-2" target="kOaFZ-sLMDl_HOCN700E-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="62893188c0fa7362-2" value="&lt;div&gt;Prevents common bugs like null error and props typos&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;strokeColor=#00CC00;" parent="1" vertex="1">
@@ -36,80 +39,83 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kOaFZ-sLMDl_HOCN700E-5" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;" edge="1" parent="1" source="kOaFZ-sLMDl_HOCN700E-2" target="kOaFZ-sLMDl_HOCN700E-4">
+        <mxCell id="kOaFZ-sLMDl_HOCN700E-5" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;" parent="1" source="kOaFZ-sLMDl_HOCN700E-2" target="kOaFZ-sLMDl_HOCN700E-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kOaFZ-sLMDl_HOCN700E-12" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;" edge="1" parent="1" source="kOaFZ-sLMDl_HOCN700E-2" target="kOaFZ-sLMDl_HOCN700E-11">
+        <mxCell id="kOaFZ-sLMDl_HOCN700E-12" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;" parent="1" source="kOaFZ-sLMDl_HOCN700E-2" target="kOaFZ-sLMDl_HOCN700E-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kOaFZ-sLMDl_HOCN700E-28" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;" edge="1" parent="1" source="kOaFZ-sLMDl_HOCN700E-2" target="kOaFZ-sLMDl_HOCN700E-11">
+        <mxCell id="kOaFZ-sLMDl_HOCN700E-28" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;" parent="1" source="kOaFZ-sLMDl_HOCN700E-2" target="kOaFZ-sLMDl_HOCN700E-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kOaFZ-sLMDl_HOCN700E-29" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;" edge="1" parent="1" source="kOaFZ-sLMDl_HOCN700E-2" target="kOaFZ-sLMDl_HOCN700E-11">
+        <mxCell id="kOaFZ-sLMDl_HOCN700E-29" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;" parent="1" source="kOaFZ-sLMDl_HOCN700E-2" target="kOaFZ-sLMDl_HOCN700E-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kOaFZ-sLMDl_HOCN700E-31" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;" edge="1" parent="1" source="kOaFZ-sLMDl_HOCN700E-2" target="kOaFZ-sLMDl_HOCN700E-30">
+        <mxCell id="kOaFZ-sLMDl_HOCN700E-31" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;" parent="1" source="kOaFZ-sLMDl_HOCN700E-2" target="kOaFZ-sLMDl_HOCN700E-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kOaFZ-sLMDl_HOCN700E-2" value="Longer onboarding for PHP devs" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;strokeColor=#FF3333;" vertex="1" parent="1">
+        <mxCell id="kOaFZ-sLMDl_HOCN700E-2" value="Longer onboarding for PHP devs" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;strokeColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="880" y="170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kOaFZ-sLMDl_HOCN700E-4" value="But TS can also help new developers" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;strokeColor=#FF3333;" vertex="1" parent="1">
+        <mxCell id="kOaFZ-sLMDl_HOCN700E-4" value="But TS can also help new developers" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;strokeColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="960" y="290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kOaFZ-sLMDl_HOCN700E-10" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;" edge="1" parent="1" source="kOaFZ-sLMDl_HOCN700E-6" target="kOaFZ-sLMDl_HOCN700E-9">
+        <mxCell id="kOaFZ-sLMDl_HOCN700E-10" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;" parent="1" source="kOaFZ-sLMDl_HOCN700E-6" target="kOaFZ-sLMDl_HOCN700E-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kOaFZ-sLMDl_HOCN700E-6" value="Adds complexity" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;strokeColor=#FF3333;" vertex="1" parent="1">
+        <mxCell id="kOaFZ-sLMDl_HOCN700E-6" value="Adds complexity" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;strokeColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="1120" y="170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kOaFZ-sLMDl_HOCN700E-9" value="What type of complexity?" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;strokeColor=#FF3333;" vertex="1" parent="1">
+        <mxCell id="kOaFZ-sLMDl_HOCN700E-9" value="What type of complexity?" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;strokeColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="1240" y="290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kOaFZ-sLMDl_HOCN700E-11" value="They shouldn&#39;t be doing core dev anyway" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;strokeColor=#FF3333;" vertex="1" parent="1">
+        <mxCell id="kOaFZ-sLMDl_HOCN700E-11" value="They shouldn&#39;t be doing core dev anyway" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;strokeColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="830" y="290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kOaFZ-sLMDl_HOCN700E-16" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;" edge="1" parent="1" source="kOaFZ-sLMDl_HOCN700E-13" target="kOaFZ-sLMDl_HOCN700E-15">
+        <mxCell id="kOaFZ-sLMDl_HOCN700E-16" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;" parent="1" source="kOaFZ-sLMDl_HOCN700E-13" target="kOaFZ-sLMDl_HOCN700E-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kOaFZ-sLMDl_HOCN700E-13" value="Code gets harder to read" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;strokeColor=#FF3333;" vertex="1" parent="1">
+        <mxCell id="kOaFZ-sLMDl_HOCN700E-13" value="Code gets harder to read" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;strokeColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="1290" y="170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kOaFZ-sLMDl_HOCN700E-15" value="But types can also give valuable information when reading" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;strokeColor=#FF3333;" vertex="1" parent="1">
+        <mxCell id="kOaFZ-sLMDl_HOCN700E-15" value="But types can also give valuable information when reading" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;strokeColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="1400" y="290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kOaFZ-sLMDl_HOCN700E-20" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;" edge="1" parent="1" source="kOaFZ-sLMDl_HOCN700E-17" target="kOaFZ-sLMDl_HOCN700E-19">
+        <mxCell id="kOaFZ-sLMDl_HOCN700E-20" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;" parent="1" source="kOaFZ-sLMDl_HOCN700E-17" target="kOaFZ-sLMDl_HOCN700E-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kOaFZ-sLMDl_HOCN700E-26" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;" edge="1" parent="1" source="kOaFZ-sLMDl_HOCN700E-17" target="kOaFZ-sLMDl_HOCN700E-25">
+        <mxCell id="kOaFZ-sLMDl_HOCN700E-26" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;" parent="1" source="kOaFZ-sLMDl_HOCN700E-17" target="kOaFZ-sLMDl_HOCN700E-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kOaFZ-sLMDl_HOCN700E-17" value="Testing can do that too" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;strokeColor=#FF3333;" vertex="1" parent="1">
+        <mxCell id="kOaFZ-sLMDl_HOCN700E-17" value="Testing can do that too" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;strokeColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="430" y="290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kOaFZ-sLMDl_HOCN700E-19" value="But which coverage would that require?" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;strokeColor=#FF3333;" vertex="1" parent="1">
+        <mxCell id="kOaFZ-sLMDl_HOCN700E-19" value="But which coverage would that require?" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;strokeColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="500" y="410" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kOaFZ-sLMDl_HOCN700E-24" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;" edge="1" parent="1" source="kOaFZ-sLMDl_HOCN700E-21" target="kOaFZ-sLMDl_HOCN700E-23">
+        <mxCell id="kOaFZ-sLMDl_HOCN700E-24" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;" parent="1" source="kOaFZ-sLMDl_HOCN700E-21" target="kOaFZ-sLMDl_HOCN700E-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kOaFZ-sLMDl_HOCN700E-21" value="No empirical evidence" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;strokeColor=#FF3333;" vertex="1" parent="1">
+        <mxCell id="kOaFZ-sLMDl_HOCN700E-21" value="No empirical evidence" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;strokeColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="590" y="290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kOaFZ-sLMDl_HOCN700E-23" value="Evidence is mixed" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;strokeColor=#FF3333;" vertex="1" parent="1">
+        <mxCell id="kOaFZ-sLMDl_HOCN700E-23" value="Evidence is mixed" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;strokeColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="660" y="410" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kOaFZ-sLMDl_HOCN700E-25" value="We must do some unit tests anyway" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;strokeColor=#00CC00;" vertex="1" parent="1">
+        <mxCell id="kOaFZ-sLMDl_HOCN700E-25" value="We must do some unit tests anyway" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;strokeColor=#00CC00;" parent="1" vertex="1">
           <mxGeometry x="330" y="410" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kOaFZ-sLMDl_HOCN700E-30" value="They are already used to Psalm" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;strokeColor=#FF3333;" vertex="1" parent="1">
+        <mxCell id="kOaFZ-sLMDl_HOCN700E-30" value="They are already used to Psalm" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;strokeColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="1090" y="290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kOaFZ-sLMDl_HOCN700E-32" value="Recommended by React website" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;strokeColor=#66CC00;" vertex="1" parent="1">
+        <mxCell id="kOaFZ-sLMDl_HOCN700E-32" value="Recommended by React website" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;strokeColor=#66CC00;" parent="1" vertex="1">
           <mxGeometry x="270" y="170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kOaFZ-sLMDl_HOCN700E-34" value="Big community" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;strokeColor=#66CC00;" vertex="1" parent="1">
+        <mxCell id="kOaFZ-sLMDl_HOCN700E-34" value="Big community" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;strokeColor=#66CC00;" parent="1" vertex="1">
           <mxGeometry x="120" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xKnO4bN-qSB2wQGIqfhH-1" value="Easier to switch from TS than to TS" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;strokeColor=#66CC00;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="170" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
