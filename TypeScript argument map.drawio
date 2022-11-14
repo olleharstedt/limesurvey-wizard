@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-14T15:27:30.125Z" agent="5.0 (X11)" etag="uIdneW9lNVXoURn8JbIr" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-14T15:33:51.707Z" agent="5.0 (X11)" etag="4Z-gPTUXT-oCSJVBSHHX" version="20.5.3" type="github">
   <diagram name="Page-1" id="10a91c8b-09ff-31b1-d368-03940ed4cc9e">
     <mxGraphModel dx="1408" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -11,6 +11,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kOaFZ-sLMDl_HOCN700E-14" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;" edge="1" parent="1" source="62893188c0fa7362-1" target="kOaFZ-sLMDl_HOCN700E-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kOaFZ-sLMDl_HOCN700E-33" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;" edge="1" parent="1" source="62893188c0fa7362-1" target="kOaFZ-sLMDl_HOCN700E-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kOaFZ-sLMDl_HOCN700E-35" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;" edge="1" parent="1" source="62893188c0fa7362-1" target="kOaFZ-sLMDl_HOCN700E-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="62893188c0fa7362-1" value="TypeScript" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;strokeColor=#FFB366;" parent="1" vertex="1">
@@ -98,6 +104,12 @@
         </mxCell>
         <mxCell id="kOaFZ-sLMDl_HOCN700E-30" value="They are already used to Psalm" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;strokeColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="1090" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kOaFZ-sLMDl_HOCN700E-32" value="Recommended by React website" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;strokeColor=#66CC00;" vertex="1" parent="1">
+          <mxGeometry x="270" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kOaFZ-sLMDl_HOCN700E-34" value="Big community" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;strokeColor=#66CC00;" vertex="1" parent="1">
+          <mxGeometry x="120" y="170" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
