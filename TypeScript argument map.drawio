@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-14T15:19:36.052Z" agent="5.0 (X11)" etag="A93j54iq-Zjm9Vo4R7yz" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-14T15:20:31.879Z" agent="5.0 (X11)" etag="JNbNUgbCACdmoc8r6yOC" version="20.5.3" type="github">
   <diagram name="Page-1" id="10a91c8b-09ff-31b1-d368-03940ed4cc9e">
     <mxGraphModel dx="1408" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -66,6 +66,9 @@
         <mxCell id="kOaFZ-sLMDl_HOCN700E-20" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;" edge="1" parent="1" source="kOaFZ-sLMDl_HOCN700E-17" target="kOaFZ-sLMDl_HOCN700E-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="kOaFZ-sLMDl_HOCN700E-26" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;" edge="1" parent="1" source="kOaFZ-sLMDl_HOCN700E-17" target="kOaFZ-sLMDl_HOCN700E-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="kOaFZ-sLMDl_HOCN700E-17" value="Testing can do that too" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="520" y="290" width="120" height="60" as="geometry" />
         </mxCell>
@@ -80,6 +83,9 @@
         </mxCell>
         <mxCell id="kOaFZ-sLMDl_HOCN700E-23" value="Evidence is mixed" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="780" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kOaFZ-sLMDl_HOCN700E-25" value="We must do some unit tests anyway" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="410" y="410" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
