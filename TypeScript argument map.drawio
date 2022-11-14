@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-14T15:17:06.463Z" agent="5.0 (X11)" etag="ibXcVQHFZerJF6cAfw6Q" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-14T15:18:49.693Z" agent="5.0 (X11)" etag="SsUBY6CkhtJYyaM2cKyy" version="20.5.3" type="github">
   <diagram name="Page-1" id="10a91c8b-09ff-31b1-d368-03940ed4cc9e">
     <mxGraphModel dx="1408" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -10,8 +10,14 @@
         <mxCell id="kOaFZ-sLMDl_HOCN700E-7" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;" edge="1" parent="1" source="62893188c0fa7362-1" target="kOaFZ-sLMDl_HOCN700E-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="kOaFZ-sLMDl_HOCN700E-14" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;" edge="1" parent="1" source="62893188c0fa7362-1" target="kOaFZ-sLMDl_HOCN700E-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="62893188c0fa7362-1" value="TypeScript" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="610" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kOaFZ-sLMDl_HOCN700E-18" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;" edge="1" parent="1" source="62893188c0fa7362-2" target="kOaFZ-sLMDl_HOCN700E-17">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="62893188c0fa7362-2" value="&lt;div&gt;Prevents common bugs like null error and props typos&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="430" y="170" width="120" height="60" as="geometry" />
@@ -58,6 +64,24 @@
         </mxCell>
         <mxCell id="kOaFZ-sLMDl_HOCN700E-11" value="They shouldn&#39;t be doing core dev anyway" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="920" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kOaFZ-sLMDl_HOCN700E-16" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;" edge="1" parent="1" source="kOaFZ-sLMDl_HOCN700E-13" target="kOaFZ-sLMDl_HOCN700E-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kOaFZ-sLMDl_HOCN700E-13" value="Code gets harder to read" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kOaFZ-sLMDl_HOCN700E-15" value="But types can also give valuable information when reading" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kOaFZ-sLMDl_HOCN700E-20" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;" edge="1" parent="1" source="kOaFZ-sLMDl_HOCN700E-17" target="kOaFZ-sLMDl_HOCN700E-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kOaFZ-sLMDl_HOCN700E-17" value="Testing can do that too" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="520" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kOaFZ-sLMDl_HOCN700E-19" value="But which coverage would that require?" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="610" y="410" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
