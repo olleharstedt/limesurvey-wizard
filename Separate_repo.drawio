@@ -1,1 +1,35 @@
-<mxfile host="app.diagrams.net" modified="2022-12-06T16:48:57.955Z" agent="5.0 (X11)" etag="wmPVgfCS0tTTkW-0Esj2" version="15.8.6" type="github"><diagram name="Page-1" id="10a91c8b-09ff-31b1-d368-03940ed4cc9e">7VvBcpswEP0aH9MByWA4xm6SHtpOZzLTTo8qyEAjI48sx3a/vsKWMLLiBHBS1IlOZleLkPY9S9pnPIKzxfaOoWX+haaYjICXbkfw4wgA3/Mi8VF5dgdPEE4OjowVqQw6Ou6LP1jdKb3rIsUrLZBTSnix1J0JLUuccM2HGKMbPWxOif7UJcqw4bhPEDG9P4qU59IrJnZs+ISLLJePjgLZ8AslDxmj61I+r6QlPrQskOpGhq5ylNJNwwVvRnDGKOWHq8V2hkmVVpWxw323Z1rrITNc8jY3hCCKoR9FiTdHExiCK9nDIyJrmYYZLdOCF7SUI+Y7laBNXnB8v0RJZW8ECUZwmvMFEZYvLvcZwKm06plWBkG/MJnWaZpRQplo2idKhHJGH+qcV/FzWvJbtChIRaXvmKWoRNIteeOL1E0RKbJSGImYPRYdTs10qPlhxvG24ZLpucN0gTnbiRDZGio6KhZLc9OghEIzb7AhlD4kWZjVPR/hEBcSkZboAAOdEQgJr3K2RAKgMKuuG4gdGsVzmu3vE8gx1IH0J0MiCR2SvZGcRDYhOTaQ/EoNXI6J93REXko7Yvy62stOfLdFNcB9Z3tbpjwQNi7TkzuEpxEvrEb0b8z5TtpozalwUcZzmtESkc+ULhVX+hHgHNgrumYJfn4PEvPKMD8TI78/ONX28LOUufI+QM8DOm1kHwwTxItHfdd/iiKy92+0ELM5htD5fCXGecqhehD9aBUYtPopDkOOV2/MK9CdV0Gs0erK923mVeQ2nt4bDwT6xgOiITee2CHZG8lgbBOSqsR4Acrr5E1w9C7BEQxcncVW4WhWzw7HVjhGkVU4ujq7P5R+qEMJ42BIKF2hfYFkElsFpVlpu5LowpJI3vZsSSQrhg4lkV5n18DZWRD5ZqXtBJy3Z1V8IassJ1Xo1qrXZhVswSpVSXWhVaioVK9XVguD/sStV0Mwy+/MLB/EOrMUdJYSy5QG3Zp1IbOiNszqrjmLIiv6r85Yplbp1qx/wKzuv5KBaHxyzgI2EwuYyqlS196jjDbR6/XAG1JFA04N7Qlj/ZKRHTi2U0MdjqZ+Zrw7NiiO7aRQh6P5a2FkFY5OB339V0PaSFago7ggKkA4gSfn9NDq45TTQodhVkdx4QlmWU4sp4e+PrPayFbq8NaeWZ4HT9csu0tAp4cOw6yO4oJla5Ywj3+zOYQf/8YEb/4C</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-06T16:53:26.220Z" agent="5.0 (X11)" etag="0jud04VYmq4P375Bj22K" version="15.8.6" type="github">
+  <diagram name="Page-1" id="10a91c8b-09ff-31b1-d368-03940ed4cc9e">
+    <mxGraphModel dx="1008" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bJKwxyFEZqVPCXt8myTn-4" value="But" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="62893188c0fa7362-1" target="62893188c0fa7362-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bJKwxyFEZqVPCXt8myTn-6" value="Because" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="62893188c0fa7362-1" target="62893188c0fa7362-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="62893188c0fa7362-1" value="New editor should be put in separate git repo" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="610" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="62893188c0fa7362-2" value="&lt;span&gt;Condition&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="430" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bJKwxyFEZqVPCXt8myTn-2" value="But" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=none;endFill=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="62893188c0fa7362-3" target="bJKwxyFEZqVPCXt8myTn-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="62893188c0fa7362-3" value="Dev setup should be as easy as clone, composer, yarn" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="780" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bJKwxyFEZqVPCXt8myTn-1" value="This can be done with two repos two" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="940" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
