@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-06T17:03:11.611Z" agent="5.0 (X11)" etag="5gTjFTwe7OLKg5ub05KE" version="15.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-06T17:12:20.384Z" agent="5.0 (X11)" etag="I-1U8wzyqAUj46J1Wh4i" version="15.8.6" type="github">
   <diagram name="Page-1" id="10a91c8b-09ff-31b1-d368-03940ed4cc9e">
     <mxGraphModel dx="1008" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -17,10 +17,16 @@
         <mxCell id="YuJeHsp3bGGNzzMNZF0G-3" value="Because" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" edge="1" parent="1" source="62893188c0fa7362-1" target="YuJeHsp3bGGNzzMNZF0G-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="YuJeHsp3bGGNzzMNZF0G-8" value="Because" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="62893188c0fa7362-1" target="YuJeHsp3bGGNzzMNZF0G-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="62893188c0fa7362-1" value="New React code should be put in separate git repo" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="610" y="50" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="62893188c0fa7362-2" value="?" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+        <mxCell id="YuJeHsp3bGGNzzMNZF0G-6" value="But" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="62893188c0fa7362-2" target="YuJeHsp3bGGNzzMNZF0G-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="62893188c0fa7362-2" value="It will be easier for frontend dev" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="430" y="170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bJKwxyFEZqVPCXt8myTn-2" value="But" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=none;endFill=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="62893188c0fa7362-3" target="bJKwxyFEZqVPCXt8myTn-1" edge="1">
@@ -40,6 +46,18 @@
         </mxCell>
         <mxCell id="YuJeHsp3bGGNzzMNZF0G-4" value="We want it to be easy to contribute with code to LimeSurvey" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="880" y="120" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YuJeHsp3bGGNzzMNZF0G-5" value="How?" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="540" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YuJeHsp3bGGNzzMNZF0G-10" value="But" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="YuJeHsp3bGGNzzMNZF0G-7" target="YuJeHsp3bGGNzzMNZF0G-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YuJeHsp3bGGNzzMNZF0G-7" value="Frontend devs should not need to setup a PHP env" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="130" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YuJeHsp3bGGNzzMNZF0G-9" value="They can just use docker?" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="230" y="290" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
