@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-06T16:56:35.324Z" agent="5.0 (X11)" etag="HmDcRQpeU-_8ntWHpdXZ" version="15.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-06T16:56:54.507Z" agent="5.0 (X11)" etag="H2L5075OKQP3sl4tPc3h" version="15.8.6" type="github">
   <diagram name="Page-1" id="10a91c8b-09ff-31b1-d368-03940ed4cc9e">
     <mxGraphModel dx="1008" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -23,7 +23,7 @@
         <mxCell id="bJKwxyFEZqVPCXt8myTn-2" value="But" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=none;endFill=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="62893188c0fa7362-3" target="bJKwxyFEZqVPCXt8myTn-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="62893188c0fa7362-3" value="Dev setup should be as easy as clone, composer, yarn" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+        <mxCell id="62893188c0fa7362-3" value="Dev setup should be as easy as git clone, composer, yarn" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="780" y="170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bJKwxyFEZqVPCXt8myTn-1" value="This can be done with two repos two" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
