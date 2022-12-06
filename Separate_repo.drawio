@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-06T16:58:54.962Z" agent="5.0 (X11)" etag="LaBWr9ADR1uZSvKh3n2W" version="15.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-06T17:03:11.611Z" agent="5.0 (X11)" etag="5gTjFTwe7OLKg5ub05KE" version="15.8.6" type="github">
   <diagram name="Page-1" id="10a91c8b-09ff-31b1-d368-03940ed4cc9e">
     <mxGraphModel dx="1008" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -37,6 +37,9 @@
         </mxCell>
         <mxCell id="YuJeHsp3bGGNzzMNZF0G-2" value="Release script will have to be adjusted anyway (yarn build)" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
           <mxGeometry x="280" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YuJeHsp3bGGNzzMNZF0G-4" value="We want it to be easy to contribute with code to LimeSurvey" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="880" y="120" width="230" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
