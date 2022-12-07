@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-07T15:16:13.482Z" agent="5.0 (X11)" etag="qjiey1feHExMT-2SbleX" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-07T16:20:46.548Z" agent="5.0 (X11)" etag="G_kaHHcFeMd3CMNvbMZt" version="20.6.0" type="github">
   <diagram name="Page-1" id="10a91c8b-09ff-31b1-d368-03940ed4cc9e">
-    <mxGraphModel dx="1126" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2226" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -20,10 +20,13 @@
         <mxCell id="YuJeHsp3bGGNzzMNZF0G-8" value="Because" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="62893188c0fa7362-1" target="YuJeHsp3bGGNzzMNZF0G-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IcbQRTd9R0Xic-vOwV1Q-2" value="Because" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;endArrow=none;endFill=0;strokeWidth=2;" edge="1" parent="1" source="62893188c0fa7362-1" target="IcbQRTd9R0Xic-vOwV1Q-1">
+        <mxCell id="IcbQRTd9R0Xic-vOwV1Q-2" value="Because" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;endArrow=none;endFill=0;strokeWidth=2;" parent="1" source="62893188c0fa7362-1" target="IcbQRTd9R0Xic-vOwV1Q-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IcbQRTd9R0Xic-vOwV1Q-4" value="Because" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" edge="1" parent="1" source="62893188c0fa7362-1" target="IcbQRTd9R0Xic-vOwV1Q-3">
+        <mxCell id="IcbQRTd9R0Xic-vOwV1Q-4" value="Because" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="1" source="62893188c0fa7362-1" target="IcbQRTd9R0Xic-vOwV1Q-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFQu6ULB2wHo0FzYuS6X-2" value="Because" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;endArrow=none;endFill=0;strokeWidth=2;" edge="1" parent="1" source="62893188c0fa7362-1" target="ZFQu6ULB2wHo0FzYuS6X-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="62893188c0fa7362-1" value="New React code should be put in separate git repo" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
@@ -74,11 +77,14 @@
         <mxCell id="YuJeHsp3bGGNzzMNZF0G-13" value="That&#39;s independent of one or two repos" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="100" y="290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IcbQRTd9R0Xic-vOwV1Q-1" value="Why does it need to be one repo?" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+        <mxCell id="IcbQRTd9R0Xic-vOwV1Q-1" value="Why does it need to be one repo?" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="580" y="170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IcbQRTd9R0Xic-vOwV1Q-3" value="Better performance for CI/CD" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+        <mxCell id="IcbQRTd9R0Xic-vOwV1Q-3" value="Better performance for CI/CD" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFQu6ULB2wHo0FzYuS6X-1" value="We might create further apps on the same API" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="170" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
